@@ -72,3 +72,33 @@ print(nombre)
 nombre = "Juanes"
 edad = 27
 print(f"Mi nombre es {nombre} y tengo {edad} años")
+
+# ====================================
+# Ejercicio 8 - SLICING
+# ====================================.
+
+texto = "python"
+print(texto[0:2]) #imprime "py"
+
+texto = "python"
+print(texto[2:6]) #imprime "thon"
+
+texto = "python"
+print(texto[:4]) #imprime "pyth"
+
+texto = "python"
+print(texto[3:]) #imprime "hon"
+
+nombre = "Juan Esteban"
+print(nombre[0:4]) #imprime "Juan"
+
+nombre = "Juan Esteban"
+print(nombre[5:]) #imprime "Esteban"
+
+# ====================================
+# Ejercicio 9 - STEP
+# ====================================
+
+texto = "python"
+print(texto[::2]) #imprime "pto"
+print(texto[::-1]) #imprime "nohtyp" 

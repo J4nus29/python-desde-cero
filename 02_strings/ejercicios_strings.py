@@ -102,3 +102,61 @@ print(nombre[5:]) #imprime "Esteban"
 texto = "python"
 print(texto[::2]) #imprime "pto"
 print(texto[::-1]) #imprime "nohtyp" 
+
+# ====================================
+# Ejercicio 10 - METODOS DE STRINGS
+# ====================================  
+
+nombre = "juan"
+print(nombre.upper()) # Hace que todas las letras sean mayusculas
+
+nombre = "JUAN"
+print(nombre.lower()) # Hace que todas las letras sean minusculas
+
+nombre = " Juan Esteban " # Elimina los espacios al inicio y al final
+print(nombre.strip())
+
+frase = "Me gusta python"
+print(frase.replace("python", "java")) # Reemplaza la palabra python por java
+
+frase = "banana"
+print(frase.count("a")) # Cuenta cuantas veces aparece la letra "a" en la frase
+
+# ====================================
+# Ejercicio 11 - MÁS METODOS DE STRINGS
+# ====================================
+
+texto = "Juan Esteban Muñoz"
+print(texto.split()) # Convierte el string en una lista de palabras
+
+texto = "Python"
+print(texto.find("h")) # Indica en qué índice se encuentra el texto buscado
+
+texto = "Python"
+print(texto.startswith("Py")) # Indica si la frase comienza con el argumento que le dimos
+
+texto = "Python"
+print(texto.endswith("on")) # Indica si la frase termina con el argumento que le dimos
+
+texto = "Python"
+print(texto.find("z"))
+
+# ====================================
+# EJERCICIO 12 - ULTIMOS METODOS
+# ====================================
+
+texto = "juan esteban"
+print(texto.capitalize()) # Primer letra mayuscula y las demas minusculas
+
+texto = "PYTHON"
+print(texto.isupper()) # Verifica que todo este en mayusculas y responde con un TRUE o FALSE
+
+texto = "python"
+print(texto.islower()) # Verifica que todo este en minusculas y responde con un TRUE o FALSE
+
+texto = "juan esteban muñoz"
+print(texto.title()) # Pone la primer letra de cada frase en mayuscula
+
+nombres = ["Juan", "Esteban", "Muñoz"]
+print(" ".join(nombres)) # Unir las palabras de una lista en un solo texto
+
